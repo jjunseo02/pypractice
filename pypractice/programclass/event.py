@@ -24,7 +24,7 @@ is_VIP = input("VIP 여부 (y/n) : ")
 
 # 만약 회원 "y" 이면서 and (나이 20세 이상 >= 이거나 or VIP인 경우 "y")
 # "이벤트 참여 가능" 출력하기
-if is_member == "y" and (age >= 20 or is_VIP == "y"):      
+if is_member == "y" and (age >= 20 or is_VIP == "y"):
     print("이벤트 참여 가능")
 # 아닐시 "이벤트 참여 불가" 출력하기
 else:
